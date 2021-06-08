@@ -1,0 +1,28 @@
+body{
+background: green;
+
+}
+
+.p1{
+  color: antiquewhite;
+}
+
+article {
+
+  width: 200px;
+  margin: 0 auto;
+}
+
+.container {
+  background: red;
+}
+
+#texto-1 {
+  color: white;
+}
+
+#texto-2 {
+  color: yellow;
+  padding: 30px;
+}
+
