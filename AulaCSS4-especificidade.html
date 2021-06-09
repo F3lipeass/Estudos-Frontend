@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aula sobre Especificidade</title>
+  <style>
+    /*0.0.0.1*/
+    p {
+
+      color: red;
+    }
+
+    /*0.0.1.1*/
+    .nova-cor {
+
+      color: blue;
+    }
+
+    /*0.1.0.1*/
+    #nova-cor-id {
+      color: green;
+
+    }
+  </style>
+</head>
+
+<body>
+  <p>Texto 1</p>
+  <p class="nova-cor">Texto 2</p>
+  <p class="nova-cor">Texto 3</p>
+  <p id="nova-cor-id">Texto 4</p>
+
+  <!-- 1.0.0.1-->
+  <p style="color: yellow; background: violet;">Texto 5</p>
+
+
+</body>
+
+</html>
