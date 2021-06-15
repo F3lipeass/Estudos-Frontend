@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/Aula 9 (CSS)/assets/css/style.css">
+  <title>Aula sobre responsividade</title>
+  <style>
+    body {
+      background: red;
+      color: white;
+      font-size: 30px;
+    }
+
+    p {
+      display: none;
+    }
+
+
+    @media (max-width:500px) {
+      body {
+        background: royalblue;
+      }
+    }
+
+    @media (max-width: 320px) {
+
+      p {
+        display: block;
+      }
+
+      body {
+        font-size: 50px;
+        background: purple;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  Texto 1
+
+  <p>
+    Texto 2
+  </p>
+</body>
+
+</html>
