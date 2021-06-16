@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Display e Visibilidade</title>
+  <style>
+    p {
+      color: red;
+    }
+
+    .ex1 {
+      display: block;
+    }
+
+    .ex2 {
+      display: inline;
+    }
+
+    .ex3 {
+
+      display: inline-block;
+    }
+
+    .aparecer:hover .ex4 {
+      display: block;
+    }
+
+    .ex4 {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p class="ex1"> Texto 1</p>
+
+  <div>
+    Texto 2 exemplo
+    <p class="ex2"> Texto 2</p>
+    Texto 2 exemplo
+  </div>
+
+  <div>
+    Texto 2 exemplo
+    <p class="ex3"> Texto 2</p>
+    Texto 2 exemplo
+  </div>
+
+
+  <div class="aparecer">
+    Aparecer!
+    <p class="ex4"> Texto 4</p>
+  </div>
+</body>
+
+</html>
